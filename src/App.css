@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+.form{
+  display: grid;
+}
+.form label{
+  margin-top: 2rem;
+}
+.container{
+  background: url('../public/peakpx\ \(1\).jpg');
+  background-size: cover;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form label input{
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+}
+fieldset{
+  border: 5px solid white;
+  border-radius: 8px;
+}
+.submit{
+  margin-top: 2rem;
+  width: 25%;
+  height: 8vh;
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: #61dafb;
+}
